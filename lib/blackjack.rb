@@ -8,12 +8,14 @@ def deal_card
   return rand(1..11)
 end
 
-def display_card_total
+def display_card_total(num)
   # code #display_card_total here
+  return "Your cards add  up to #{card_total}"
 end
 
 def prompt_user
   # code #prompt_user here
+  "Type 'h' to hit or 's' to stay"
 end
 
 def get_user_input
